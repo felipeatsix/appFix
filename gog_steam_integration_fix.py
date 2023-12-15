@@ -1,4 +1,12 @@
-# Replace all the content from %AppData%\Local\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8\backend_steam_network.py with the content of this file
+# Instructions:
+# 1. Exit GOG Galaxy
+# 2. Open the file %AppData%\Local\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8\backend_steam_network.py
+# 3. Replace all the content of the file with the content of this file
+# 4. Open GOG Galaxy and proceed with steam integration again
+
+# Important Note: 
+# After the fix, when you check again on GOG integrations it will say "offline" for steam. But that's just a false information caused by a bug, your steam library will actually be synchronized and you will be able to see all your steam games on GOG Galaxy.
+
 import asyncio
 import logging
 import ssl
