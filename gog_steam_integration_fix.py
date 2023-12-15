@@ -7,10 +7,6 @@
 # Note #
 # After the fix, when you check again on GOG integrations it will say "offline" for steam. But that's just a false information caused by a bug, your steam library will actually be synchronized and you will be able to see all your steam games on GOG Galaxy.
 
-# Bonus tip - Fix GOG Library image assets
-# I have uploaded a youtube video explaining how to fix missing library image assets (tiles, icons or background images). Copy and paste on your browser the address below:
-# https://www.youtube.com/watch?v=l65sLmS0Ce0
-
 import asyncio
 import logging
 import ssl
