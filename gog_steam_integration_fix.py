@@ -1,5 +1,5 @@
 # Instructions:
-# 1. Exit GOG Galaxy
+# 1. Exit GOG Galaxy (the proper way! Righ click on  tray icon > click on Exit)
 # 2. Open the file %AppData%\Local\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8\backend_steam_network.py
 # 3. Replace all the content of the file with the content of this file
 # 4. Open GOG Galaxy and proceed with steam integration again
