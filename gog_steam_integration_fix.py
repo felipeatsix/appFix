@@ -1,3 +1,4 @@
+# Replace all the content from %AppData%\Local\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8\backend_steam_network.py with the content of this file
 import asyncio
 import logging
 import ssl
