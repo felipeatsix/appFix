@@ -1,11 +1,15 @@
-# Instructions:
+# Instructions #
 # 1. Exit GOG Galaxy (the proper way! Righ click on  tray icon > click on Exit)
 # 2. Open the file %AppData%\Local\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8\backend_steam_network.py
 # 3. Replace all the content of the file with the content of this file
 # 4. Open GOG Galaxy and proceed with steam integration again
 
-# Important Note: 
+# Note #
 # After the fix, when you check again on GOG integrations it will say "offline" for steam. But that's just a false information caused by a bug, your steam library will actually be synchronized and you will be able to see all your steam games on GOG Galaxy.
+
+# Bonus tip - Fix Library assets
+# I have uploaded a youtube video explaining how to fix when library image assets (tiles, icons or background images) are missing, copy and paste on your browser the address below:
+# https://www.youtube.com/watch?v=l65sLmS0Ce0
 
 import asyncio
 import logging
